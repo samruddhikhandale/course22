@@ -2,7 +2,7 @@
 
 set -e
 
-PACKAGES="
+PACKAGES="jupyterlab
     torch
     torchvision
     fastai
@@ -11,4 +11,4 @@ PACKAGES="
 
 echo "(*) Installing tools..."
 
-pip install "${PACKAGES}"
+pip install --user --upgrade --no-cache ${PACKAGES}
