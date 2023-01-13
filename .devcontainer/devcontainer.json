@@ -1,0 +1,4 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.7",
+    "onCreateCommand": "bash ./tools/install.sh"
+}
