@@ -1,4 +1,13 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.7",
+    "image": "mcr.microsoft.com/devcontainers/base:0-debian",
+
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.7",
+            "installJupyterlab": "true",
+            "configureJupyterlabAllowOrigin": "*"
+        }
+    },
+
     "onCreateCommand": "bash ./tools/install.sh"
 }

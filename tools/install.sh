@@ -2,8 +2,7 @@
 
 set -e
 
-PACKAGES="jupyterlab
-    torch
+PACKAGES="torch
     torchvision
     fastai
     transformers
