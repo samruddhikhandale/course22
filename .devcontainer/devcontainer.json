@@ -1,5 +1,5 @@
 {
-    "image": "ubutu:focal",
+    "image": "ubuntu:focal",
 
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
