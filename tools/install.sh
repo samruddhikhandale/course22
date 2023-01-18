@@ -13,7 +13,9 @@ PACKAGES="torch
     kaggle
     sympy
     seaborn
-    graphviz"
+    graphviz
+    fastkaggle
+    timm"
 
 echo "(*) Installing tools..."
 
