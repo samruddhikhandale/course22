@@ -6,7 +6,10 @@
             "version": "none",
             "installJupyterlab": "true",
             "configureJupyterlabAllowOrigin": "*"
-        }
+        },
+        "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+            "installCudnn": true
+          }
     },
 
     "onCreateCommand": "bash ./tools/install.sh"
