@@ -6,6 +6,7 @@ PACKAGES="fastai
     gradio
     graphviz
     ipywidgets
+    jupyterlab
     kaggle
     plotly
     seaborn
