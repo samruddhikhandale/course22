@@ -15,6 +15,6 @@
     "onCreateCommand": "bash ./tools/install.sh",
 
     "runArgs": [
-		"--shm-size=8g"
+		"--shm-size=16g"
 	]
 }
