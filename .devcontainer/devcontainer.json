@@ -12,5 +12,9 @@
           }
     },
 
-    "onCreateCommand": "bash ./tools/install.sh"
+    "onCreateCommand": "bash ./tools/install.sh",
+
+    "runArgs": [
+		"--shm-size=8g"
+	]
 }
