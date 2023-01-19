@@ -1,7 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
     "image": "mcr.microsoft.com/devcontainers/python:0-3.10",
-
     "features": {
         "ghcr.io/devcontainers/features/python:1": {
             "version": "none",
@@ -10,12 +9,10 @@
         },
         "ghcr.io/devcontainers/features/nvidia-cuda:1": {
             "installCudnn": true
-          }
+        }
     },
-
     "onCreateCommand": "bash ./tools/install.sh",
-
     "runArgs": [
-		"--shm-size=16g"
-	]
+        "--shm-size=16g"
+    ]
 }
