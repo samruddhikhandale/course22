@@ -1,0 +1,14 @@
+fastai
+fastkaggle
+gradio
+graphviz
+ipywidgets
+kaggle
+plotly
+seaborn
+statsmodels
+sympy
+timm
+torch
+torchvision
+transformers

@@ -1,23 +1,9 @@
 #!/usr/bin/env bash
 set -eux
 
-PACKAGES="fastai
-    fastkaggle
-    gradio
-    graphviz
-    ipywidgets
-    kaggle
-    plotly
-    seaborn
-    statsmodels
-    sympy
-    timm
-    torch
-    torchvision
-    transformers"
-
 echo "(*) Installing tools..."
 
-pip install --user --upgrade --no-cache ${PACKAGES}
+python3 -m pip install -r requirements.txt
 
-sudo apt-get update && sudo apt-get -y install --no-install-recommends graphviz
+sudo apt-get update
+sudo apt-get -y install --no-install-recommends graphviz
