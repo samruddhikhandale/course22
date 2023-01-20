@@ -12,6 +12,6 @@
     ],
 
     "hostRequirements": {
-        "storage": "64"
+        "storage": 64
     }
 }
