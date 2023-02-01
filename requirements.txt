@@ -4,7 +4,6 @@ fastkaggle
 gradio
 graphviz
 ipywidgets
-jupyterlab
 kaggle
 plotly
 seaborn

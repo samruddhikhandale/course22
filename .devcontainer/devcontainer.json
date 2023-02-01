@@ -1,6 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+    "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
+
     "features": {
         "ghcr.io/devcontainers/features/nvidia-cuda:1": {
             "installCudnn": true
@@ -10,7 +14,6 @@
     "runArgs": [
         "--shm-size=16g"
     ],
-
     "hostRequirements": {
         "storage": "64gb"
     }
