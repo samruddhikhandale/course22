@@ -5,3 +5,5 @@ RUN echo "(*) Installing jupyterlab..." \
     && su - vscode -c "python3 -m pip install --user --upgrade --no-cache-dir jupyterlab"
 
 ENV PATH="/home/vscode/.local/bin:${PATH}"
+
+COPY welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt
