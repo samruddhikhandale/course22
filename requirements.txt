@@ -5,6 +5,7 @@ gradio
 graphviz
 ipywidgets
 kaggle
+nbdev
 plotly
 seaborn
 statsmodels

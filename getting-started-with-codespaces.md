@@ -7,7 +7,7 @@ To get started, create a codespace for this repository by clicking this 👇
 
 A codespace will open in a web-based version of Visual Studio Code.
 
-## Opening the notebooks
+## Opening a notebook
 
 The [devcontainer](https://github.com/fastai/course22/tree/master/.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](requirements.txt) needed for this course.
 
@@ -17,3 +17,10 @@ In the VS Code editor, open any notebook file and start executing the notebook's
 
 You can open your codespace in JupyterLab from the "Your codespaces" page at [github.com/codespaces](https://github.com/codespaces), or by using GitHub CLI. For more information, see "[Opening an existing codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace)".
 
+## GPU-powered Codespaces
+
+GPU-powered Codespaces are now available in limited beta. Having access to a GPU from within a codespace allows developers to run complex Machine Learning models much more quickly. 
+
+To request access to the GPU machine types, or any additional machine type, [please complete the sign up form](https://github.surveymonkey.com/r/Y75GX9T).
+
+**Note**: Notebooks [09-small-models-road-to-the-top-part-2](https://github.com/fastai/course22/blob/master/09-small-models-road-to-the-top-part-2.ipynb) and [10-scaling-up-road-to-the-top-part-3](https://github.com/fastai/course22/blob/master/10-scaling-up-road-to-the-top-part-3.ipynb) requires a powerful machine to ensure that the kernel does not crash. Hence, some notebook cells for these two notebooks might not execute without a GPU-powered codespace.
