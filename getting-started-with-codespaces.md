@@ -3,7 +3,7 @@
 
 To get started, create a codespace for this repository by clicking this 👇 
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=codespaces-devcontainer&repo=530261170&machine=premiumLinux&location=WestUs2&devcontainer_path=.devcontainer%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=485606685)
 
 A codespace will open in a web-based version of Visual Studio Code.
 
