@@ -9,7 +9,7 @@ A codespace will open in a web-based version of Visual Studio Code.
 
 ## Opening a notebook
 
-The [devcontainer](.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](.devcontainer/requirements.txt) needed for this course.
+The [dev container](.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](.devcontainer/requirements.txt) needed for this course.
 
 In the VS Code editor, open any notebook file and start executing the notebook's cells.
 
