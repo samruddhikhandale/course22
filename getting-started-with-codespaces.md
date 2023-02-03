@@ -9,7 +9,7 @@ A codespace will open in a web-based version of Visual Studio Code.
 
 ## Opening a notebook
 
-The [devcontainer](https://github.com/fastai/course22/tree/master/.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](requirements.txt) needed for this course.
+The [devcontainer](.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](.devcontainer/requirements.txt) needed for this course.
 
 In the VS Code editor, open any notebook file and start executing the notebook's cells.
 
@@ -23,4 +23,4 @@ GPU-powered Codespaces are now available in limited beta. Having access to a GPU
 
 To request access to the GPU machine types, or any additional machine type, [please complete the sign up form](https://github.surveymonkey.com/r/Y75GX9T).
 
-**Note**: Notebooks [09-small-models-road-to-the-top-part-2](https://github.com/fastai/course22/blob/master/09-small-models-road-to-the-top-part-2.ipynb) and [10-scaling-up-road-to-the-top-part-3](https://github.com/fastai/course22/blob/master/10-scaling-up-road-to-the-top-part-3.ipynb) requires a powerful machine to ensure that the kernel does not crash. Hence, some notebook cells for these two notebooks might not execute without a GPU-powered codespace.
+**Note**: Notebooks [09-small-models-road-to-the-top-part-2](09-small-models-road-to-the-top-part-2.ipynb) and [10-scaling-up-road-to-the-top-part-3](10-scaling-up-road-to-the-top-part-3.ipynb) requires a powerful machine to ensure that the kernel does not crash. Hence, some notebook cells for these two notebooks might not execute without a GPU-powered codespace.
