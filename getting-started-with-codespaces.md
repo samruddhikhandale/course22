@@ -7,6 +7,8 @@ To get started, create a codespace for this repository by clicking this 👇
 
 A codespace will open in a web-based version of Visual Studio Code.
 
+**Note**: Dev container spec is also supported by [other supporting tools](https://containers.dev/supporting) along with GitHub Codespaces.
+
 ## Opening a notebook
 
 The [dev container](.devcontainer/devcontainer.json) is fully configured with softwares and [machine learning libraries](.devcontainer/requirements.txt) needed for this course.
