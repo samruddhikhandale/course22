@@ -4,13 +4,14 @@
         "context": ".",
         "dockerfile": "Dockerfile"
     },
-    
-    // Features to add to the dev container. More info: https://containers.dev/features
-    "features": {
-        "ghcr.io/devcontainers/features/nvidia-cuda:1": {
-            "installCudnn": true
-        }
-    },
+
+    // Uncomment to install NVIDIA CUDA - required for a GPU-powered codespace
+    // "features": {
+    //     "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+    //         "installCudnn": true
+    //     }
+    // },
+
     "hostRequirements": {
         "storage": "64gb"
     },

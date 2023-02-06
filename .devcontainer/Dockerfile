@@ -1,7 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/python:0-3.10
 
 COPY requirements.txt /tmp/
-RUN chmod +x /tmp/requirements.txt
 
 RUN echo "(*) Installing tools..." \
     && su - vscode -c "pip install -r /tmp/requirements.txt" \
