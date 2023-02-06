@@ -7,7 +7,7 @@ To get started, create a codespace for this repository by clicking this 👇
 
 A codespace will open in a web-based version of Visual Studio Code.
 
-**Note**: Dev container spec is also supported by [other supporting tools](https://containers.dev/supporting) along with GitHub Codespaces.
+**Note**: Dev containers is now an open spec which is supported by [GitHub Codespaces](https://github.com/codespaces) and [other supporting tools](https://containers.dev/supporting).
 
 ## Opening a notebook
 
@@ -17,7 +17,7 @@ In the VS Code editor, open any notebook file and start executing the notebook's
 
 ## Opening your codespace in JupyterLab
 
-You can open your codespace in JupyterLab from the "Your codespaces" page at [github.com/codespaces](https://github.com/codespaces), or by using [GitHub CLI](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace?tool=cli#opening-an-exis       ting-codespace) with `gh codespace jupyter`. For more information, see "[Opening an existing codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace)".
+You can open your codespace in JupyterLab from the "Your codespaces" page at [github.com/codespaces](https://github.com/codespaces), or by using [GitHub CLI](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace?tool=cli#opening-an-existing-codespace) with `gh codespace jupyter`. For more information, see "[Opening an existing codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace)".
 
 ## GPU-powered Codespaces
 
